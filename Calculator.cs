@@ -168,9 +168,9 @@ namespace ICT3101_Calculator
             return Math.Round(noOfFailure, 0);
         }
 
-        public double defectDensity(double noOfDefect, double size)
+        public double defectDensity(double defect, double size)
         {
-            return Math.Round(noOfDefect / size,1);
+            return Math.Round(defect / size,1);
         }
     }
 }
