@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT3101_Calculator", "ICT3101_Calculator.csproj", "{2FCCD576-839E-4A16-B669-783123B295B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT3101_Calculator", "ICT3101_Calculator.csproj", "{2FCCD576-839E-4A16-B669-783123B295B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICT3101_Calculator.UnitTest", "..\ICT3101_Calculator.UnitTest\ICT3101_Calculator.UnitTest.csproj", "{558F4ED4-847B-495B-87FE-C635D22E1B71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICT3101_Calculator.UnitTest", "..\ICT3101_Calculator.UnitTest\ICT3101_Calculator.UnitTest.csproj", "{558F4ED4-847B-495B-87FE-C635D22E1B71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FCFB684-734A-4285-969F-4A3E71F266A2}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

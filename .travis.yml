@@ -1,0 +1,8 @@
+language: csharp
+solution: ICT3101_Calculator.sln
+dotnet: 2.2
+mono: none
+
+script:
+- dotnet restore #this will restore all settings and get all our NuGet packages
+- dotnet test #this will run all our tests
